@@ -1,0 +1,25 @@
+﻿=== CAREER COMPASS COMPLETE PROJECT INFORMATION ===
+=== MAIN APPLICATION FILES ===
+=== src/app/layout.tsx ===
+=== src/app/page.tsx ===
+=== src/app/dashboard/page.tsx ===
+=== src/app/onboarding/page.tsx ===
+=== src/components/analysis/AnalysisForm.tsx ===
+=== src/components/analysis/AnalysisResult.tsx ===
+=== src/app/api/openai/analyze/route.ts ===
+=== LIBRARY & TYPE FILES ===
+=== src/lib/supabase.ts ===
+=== src/types/database.ts ===
+=== src/types/supabase.ts ===
+=== AUTH & API FILES ===
+=== UI COMPONENTS ===
+=== src/components/ui/Button.tsx ===
+=== src/components/ui/Input.tsx ===
+=== src/components/subscription/PlanModal.tsx ===
+=== FEATURE COMPONENTS ===
+=== CONFIGURATION FILES ===
+=== package.json ===
+=== next.config.js ===
+=== postcss.config.js ===
+=== tailwind.config.js ===
+=== PROJECT STRUCTURE ===
