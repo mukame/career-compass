@@ -69,7 +69,7 @@ export async function POST(request: NextRequest) {
     }
 
     // 修正：URL生成を安全に行う
-    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
+    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://career-compass-livid.vercel.app'
     
     // URLにスキームが含まれていない場合は追加
     const getValidUrl = (url: string) => {

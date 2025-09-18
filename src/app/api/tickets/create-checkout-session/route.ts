@@ -61,7 +61,7 @@ export async function POST(request: NextRequest) {
     }
 
     // URL設定（既存パターンと同じ）
-    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
+    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://career-compass-livid.vercel.app/'
     const getValidUrl = (url: string) => {
       if (!url.startsWith('http://') && !url.startsWith('https://')) {
         return `https://${url}`

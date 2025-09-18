@@ -58,7 +58,7 @@ export default function TokushoPage() {
         >
           
           {/* 販売事業者 */}
-          <div className="bg-white rounded-2xl shadow-lg p-6">
+          {/* <div className="bg-white rounded-2xl shadow-lg p-6">
             <h2 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-blue-500 flex items-center">
               <Building className="mr-3 h-5 w-5 text-blue-500" />
               販売事業者
@@ -77,10 +77,10 @@ export default function TokushoPage() {
                 <span className="font-medium">［住所を記入］</span>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* 連絡先 */}
-          <div className="bg-white rounded-2xl shadow-lg p-6">
+          {/* <div className="bg-white rounded-2xl shadow-lg p-6">
             <h2 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-blue-500 flex items-center">
               <Phone className="mr-3 h-5 w-5 text-blue-500" />
               連絡先
@@ -102,7 +102,7 @@ export default function TokushoPage() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* 商品・サービス */}
           <div className="bg-white rounded-2xl shadow-lg p-6">
@@ -209,7 +209,7 @@ export default function TokushoPage() {
               <div>
                 <h4 className="font-medium mb-2">解約について</h4>
                 <div className="text-sm space-y-1">
-                  <p>• 解約はいつでも可能です（アカウント設定画面から実行）</p>
+                  <p>• 解約はいつでも可能です</p>
                   <p>• 解約手続き完了後、次回更新日からサービス停止となります</p>
                   <p>• 月の途中での解約でも、当月末まではサービスをご利用いただけます</p>
                   <p>• 年払いプランの場合、契約期間満了まではサービスをご利用いただけます</p>
@@ -251,7 +251,7 @@ export default function TokushoPage() {
             </h2>
             <div className="space-y-3 text-gray-700 text-sm">
               <div className="space-y-2">
-                <p>• 当サービスは継続的なサブスクリプションサービスです</p>
+                {/* <p>• 当サービスは継続的なサブスクリプションサービスです</p> */}
                 <p>• AI分析結果は参考情報であり、結果を保証するものではありません</p>
                 <p>• サービス内容は予告なく変更される場合があります</p>
                 <p>• 利用規約、プライバシーポリシーも併せてご確認ください</p>
@@ -293,9 +293,9 @@ export default function TokushoPage() {
             <Link href="/privacy" className="text-blue-600 hover:underline">
               プライバシーポリシー
             </Link>
-            <Link href="/refund" className="text-blue-600 hover:underline">
+            {/* <Link href="/refund" className="text-blue-600 hover:underline">
               返金ポリシー
-            </Link>
+            </Link> */}
             <Link href="/contact" className="text-blue-600 hover:underline">
               お問い合わせ
             </Link>
