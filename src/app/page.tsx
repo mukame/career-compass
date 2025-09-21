@@ -99,11 +99,12 @@ export default function HomePage() {
                 <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
                   キャリア迷子に、<br />
                   <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                    キャリアパスの{"\""}正解{"\""}を
+                    {"\""}正解{"\""}キャリアを
                   </span>
                 </h1>
                 <p className="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed max-w-4xl mx-auto">
-                  高精度の自己分析ツールで、納得できるキャリアを明確に。<br />
+                  高精度の自己分析ツールで、<br />
+                  納得できるキャリアを明確に。<br />
                   <span className="font-semibold text-blue-600">今なら無料登録で、全種類のお試し分析が可能！</span>
                 </p>
               </div>
@@ -130,15 +131,15 @@ export default function HomePage() {
               <div className="flex flex-wrap justify-center items-center gap-8 text-gray-500 mb-20">
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="font-medium">プライム上場企業人事監修</span>
+                  <span className="font-medium">プライム上場企業の人事が総監修</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
-                  <span className="font-medium">国家資格キャリアコンサルタント参画</span>
+                  <span className="font-medium">国家資格キャリアコンサルタントと共同開発</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-purple-500 rounded-full animate-pulse" style={{ animationDelay: '1s' }}></div>
-                  <span className="font-medium">プロコーチング知見活用</span>
+                  <span className="font-medium">プロのコーチング知見を最大活用</span>
                 </div>
               </div>
             </AnimatedSection>
@@ -152,7 +153,7 @@ export default function HomePage() {
           <AnimatedSection animation="fadeInUp">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
-                あなたはこんな悩みを
+                あなたはこんな悩みを<br />
                 <span className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">抱えていませんか？</span>
               </h2>
             </div>
@@ -204,12 +205,13 @@ export default function HomePage() {
           <AnimatedSection animation="fadeInUp">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">プロフェッショナル</span>
+                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  プロフェッショナル</span><br />
                 自己分析ツール
               </h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                本サービスは、キャリアに本気で向き合う人のための プロフェッショナル自己分析ツール。<br />
-                <span className="font-semibold text-blue-600">プライム上場企業の人事、キャリアコンサルタント、コーチングのプロが共同開発</span>しました。
+                本サービスは、キャリアに本気で向き合う人のためのプロフェッショナル自己分析ツール。<br />
+                <span className="font-semibold text-blue-600">プライム上場企業の人事、<br />キャリアコンサルタント、<br />コーチングのプロが共同開発</span>しました。
               </p>
             </div>
           </AnimatedSection>
@@ -260,7 +262,7 @@ export default function HomePage() {
           <AnimatedSection animation="fadeInUp" delay={600}>
             <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 border border-gray-200 text-center">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                さらに、分析結果を蓄積・比較することで「変化」を実感できます。
+                分析結果を蓄積・比較することで「変化」を実感できます。
               </h3>
               <p className="text-gray-600 text-lg">
                 継続的な自己理解の深化により、確実な成長を支援します。
@@ -307,7 +309,7 @@ export default function HomePage() {
                 Before → After
               </h2>
               <p className="text-xl text-blue-100">
-                あなたのキャリアがこう変わります
+                あなたのキャリアがみるみる前進！
               </p>
             </div>
           </AnimatedSection>
@@ -408,7 +410,7 @@ export default function HomePage() {
                 してつくったから
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                「自己分析で終わらない」実践的な結果が得られます
+                「自己分析で終わらない」<br />実践的な結果が得られます
               </p>
             </div>
           </AnimatedSection>
@@ -480,25 +482,25 @@ export default function HomePage() {
                     <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    キャリアパス分析
+                    <span className="text-gray-800 font-medium">キャリアパス分析</span>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    モヤモヤ分析
+                    <span className="text-gray-800 font-medium">モヤモヤ分析</span>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    価値観分析
+                    <span className="text-gray-800 font-medium">価値観分析</span>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    強み分析
+                    <span className="text-gray-800 font-medium">強み分析</span>
                   </li>
                 </ul>
                 <button
@@ -510,6 +512,7 @@ export default function HomePage() {
               </div>
             </div>
           </AnimatedSection>
+
         </div>
       </section>
 
@@ -572,9 +575,6 @@ export default function HomePage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </button>
-            <p className="text-sm text-blue-100 mt-6">
-              クレジットカード不要 • いつでもキャンセル可能
-            </p>
           </AnimatedSection>
         </div>
       </section>
