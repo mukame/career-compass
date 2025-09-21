@@ -99,7 +99,7 @@ export default function HomePage() {
                 <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
                   キャリア迷子に、<br />
                   <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                    キャリアパスの"正解"を
+                    キャリアパスの{"\""}正解{"\""}を
                   </span>
                 </h1>
                 <p className="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed max-w-4xl mx-auto">
